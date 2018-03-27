@@ -50,7 +50,7 @@ func walk(dirpath string, ifSymLink bool) {
 			}
 
 			errinfo := errBuf.String()
-			println("Error info:", errinfo)
+//			println("Error info:", errinfo)
 			if errinfo == "" {
 				return nil
 			}
